@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #7b1fa2;
+    --secondary-color: #9c27b0;
+    --text-color: white;
+    --background-color: linear-gradient(to bottom, #2e2e2e, #1e1e1e);
+    /* Set the background color to a gradient */
+}
+
+/* Style the card container element */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.card {
+    /* Other styles */
+    background-color: #332347;
+    /* Set the background color to white */
+    border: 1px solid rgba(166, 158, 193, .37);
+    border-radius: 20px;
+    /* Add a thin border with a light grey color */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Add a subtle box shadow */
+    transition: transform 0.3s ease;
+    /* Add a transition for the hover effect */
+    color: var(--text-color);
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    /* Set the height of the cards */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 30%;
+    /* Set the flex-basis of the cards to 30% */
+    min-width: 300px;
+    /* Set a minimum width of 300px */
+}
+
+.card:hover {
+    /* Add a hover effect for the cards */
+    transform: scale(1.1);
+    /* Scale up the card slightly on hover */
+}
+
+/* Style the headings inside the cards */
+.card h2 {
+    font-size: 22px;
+    /* Increase the font size of the headings */
+    margin: 0;
+    /* Remove the margin */
+    letter-spacing: 0;
+    text-align: center;
+    /* Center align the headings */
+    font-weight: 600;
+    width: 100%;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 10px;
+}
+
+/* Style the paragraphs inside the cards */
+.card p {
+    font-size: 17px;
+    /* Increase the font size of the paragraphs */
+    text-align: center;
+    /* Justify align the paragraphs */
+    width: 100%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.5;
+    color: #c6bbe8;
+    font-family: 'DM Sans', sans-serif;
+    padding: 0;
+}
+
+/* Style the "Learn More" button */
+button.learn-more {
+    background-color: var(--primary-color);
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text-color);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+button.learn-more:hover {
+    background-color: var(--secondary-color);
+}
+
+/*images in card*/
+img {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    padding-bottom: 10px;
+}

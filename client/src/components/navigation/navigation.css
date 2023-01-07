@@ -1,0 +1,126 @@
+:root {
+    --primary-color: #7b1fa2;
+    --secondary-color: #9c27b0;
+    --text-color: white;
+    --background-color: linear-gradient(to bottom, #2e2e2e, #1e1e1e);
+    /* Set the background color to a gradient */
+}
+/* Style the navigation menu */
+nav {
+    width: 100%;
+    height: 50px;
+    /* Set the height of the navbar */
+    padding: 0;
+    /* Remove the padding */
+    padding-top: 15px;
+    display: flex;
+    /* Set the navbar to a flex container */
+    align-items: center;
+    /* Align the items to the center vertically */
+    justify-content: space-evenly;
+    /* Distribute the items evenly across the navbar */
+    padding-bottom: 10px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    height: 50px;
+    /* Set the height of the list items to 50px */
+    display:flex ;
+    float: right;
+    /* Display the list items as flex elements */
+    align-items: center;
+    /* Align the list items to the center vertically */
+    padding: 0;
+}
+
+nav a.active {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0 20px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    display: block;
+    margin-right: 1.88em;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+nav a.inactive{
+    color: #8773A6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    padding: 0 20px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    display: block;
+    margin-right: 1.88em;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+nav a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+
+nav a:hover {
+    color: #9c27b0;
+    /* Change the text color on hover */
+    text-decoration: none;
+    /* Add an underline on hover */
+    
+}
+
+nav h2 {
+    padding-left: 20px;
+    font-size: 35px;
+    font-family: 'DM Sans', sans-serif;
+    padding-right: 200px;
+}
+
+nav a.download {
+    padding: 16px 15px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 100px;
+    background-image: linear-gradient(150deg, #a841ff, #36a2ff);
+    -webkit-transition: .2s;
+    transition: .2s;
+    color: #fff;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    max-width: 100%;
+    font-weight: 500;
+}
+
+nav a.download:hover {
+    background-color: var(--secondary-color);
+    /* Change the background color on hover */
+    transform: scale(1.1);
+}
+
+/*divider bar*/
+.header-divider{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25));
+}
