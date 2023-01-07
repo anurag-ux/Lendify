@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+:root {
+    --space-root: 1rem;
+    --space-xs: calc(var(--space-root) / 2);
+    --space-s: calc(var(--space-root) / 1.5);
+    --space-m: var(--space-root);
+    --space-l: calc(var(--space-root) * 1.5);
+    --space-xl: calc(var(--space-root) * 2);
+    --color-primary: mediumslateblue;
+    --color-secondary: black;
+    --color-tertiary: hotpink;
+    --base-border-radius: 0.25rem;
+    --ease: cubic-bezier(0.075, 0.82, 0.165, 1);
+    --duration: 350ms;
+    --font-family: 'Roboto', sans-serif;
+    --font-size: 1.25rem;
+    --primary-color: #7b1fa2;
+    --secondary-color: #9c27b0;
+    --text-color: white;
+    --background-color: linear-gradient(to bottom, #2e2e2e, #1e1e1e);
+  }
+  h2{
+    font-weight: 700;
+  font-size: calc(var(--font-size) * 1.5);
+  text-align: center;
+  }
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+  max-width: 100%;
+  padding: 20px;
+
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-left: 8px;
+    flex: 1;
+
+  }
+  input::placeholder {
+    color: #999;
+  }
+  form textarea {
+    min-height: 150px;
+  }
+  
+  form button[type='submit'] {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    /* Change the text color */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    z-index: 2;
+  }
+  
+  form .error,
+  form .success {
+    margin: 16px 0;
+    padding: 12px;
+    border-radius: 4px;
+  }
+  
+  form .error {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  form .success {
+    background-color: #4caf50;
+    color: white;
+  }
+  

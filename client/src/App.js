@@ -1,23 +1,23 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Navigation from './components/navigation/Navigation';
-import Landing from './components/Landing/Landing';
-import CardGrid from './components/Cards/CardGrid';
 import Footer from './components/Footer/footer';
-import './dynamic'
+import './App.css';
+
+import Home from './pages/Home';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <html>
-      <body>
-        <div>
-          <Navigation/>
-          <Landing />
-          <CardGrid/>
-          <Footer />
-        </div>
-      </body>
-      <script src="/dynamic"></script>
-    </html>
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/contact' element={<Contact/>} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
