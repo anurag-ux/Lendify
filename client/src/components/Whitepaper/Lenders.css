@@ -1,0 +1,24 @@
+ol {
+    /* Reset the default style for the ol element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* Add some spacing between list items */
+    margin-bottom: 20px;
+  }
+  
+  li {
+    /* Increase the font size and line height for list items */
+    font-size: 18px;
+    line-height: 1.5;
+    /* Add some spacing between list items */
+    margin-bottom: 15px;
+    max-width: 60%;
+  }
+  
+  li strong {
+    /* Style the strong element within the li element */
+    font-weight: bold;
+    color: #c697db;
+  }
+  

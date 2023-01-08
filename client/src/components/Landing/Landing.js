@@ -24,12 +24,12 @@ function Landing() {
           <div id='lender' className='marketing'>
             <p>are you tired of low returns on your investments? lendify allows you to earn higher returns
                by directly investing in small businesses and individuals.</p>
-            <button className="learn-more">learn more</button>
+            <button className="learn-more"><a href='/whitepaper'>learn more</a></button>
           </div>
           <div id='borrow' className='marketing'>
             <p >are you in need of affordable financing options? lednify connects you with
                lenders who are willing to invest in your goals.</p>
-            <button className="learn-more">learn more</button>
+               <button className="learn-more"><a href='/whitepaper'>learn more</a></button>
           </div>
         </div>
       </main >

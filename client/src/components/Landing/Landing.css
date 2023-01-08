@@ -97,3 +97,17 @@ button:hover {
     margin: 0 10px; /* Add a margin between the div elements */
   }
 
+  button a {
+    padding: 16px 15px;
+    align-items: center;
+    border-radius: 0px;
+    transition: .8s;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    max-width: 100%;
+    font-weight: 400;
+  }
+  

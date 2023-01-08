@@ -8,19 +8,19 @@
 /* Style the footer */
 footer {
     color: var(--text-color);
-    padding: 20px;
+    padding-top: 10px;
     z-index: 1;
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 18px;
     /* Increase the font size of the paragraphs */
     text-align: left;
     /* Justify align the paragraphs */
     width: 100%;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 0;
     line-height: 1.5;
     color: #c6bbe8;
     font-family: 'DM Sans', sans-serif;
