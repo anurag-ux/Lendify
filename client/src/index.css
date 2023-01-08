@@ -6,19 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: sans-serif;
-    background: #190F25;
-    color: var(--text-color);
-    margin: 0;
-    userSelect: 'none';
+  background: #190F25;
+  color: var(--text-color);
+  margin: 0;
+  user-select: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-html{
-    padding-top: 0;
-    padding-left: 150px;
-    padding-right:150px ;
-    background-color: #190F25;
+
+html {
+  padding-top: 0;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #190F25;
 }

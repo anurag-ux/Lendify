@@ -1,0 +1,80 @@
+form {
+    padding: 20px 0px;
+    margin: 0;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+form input {
+    margin: 20px 0px;
+    width: 75%;
+    padding: 3%;
+}
+
+h4 {
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    display: flex;
+    width: 50%;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'DM Sans', sans-serif;
+    float: right;
+}
+
+form button[type='submit'].submit-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 8px;
+    padding: 2.5% 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.submit-button {
+    width: 75%;
+    transform: none;
+    padding: 10px 0;
+}
+button.submit-button:hover{
+    transform: scale(1.02);
+    background-image: linear-gradient(150deg, #dbad06, #0458c7);
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-icon {
+    position: inherit;
+    top: 50%;
+    right: 5%;
+    color: #999;
+    padding-right: 10%;
+  }
+  
+
+.input-field {
+    padding: 10px 40px 10px 10px;
+}
+
+.forgot-password {
+    float: right;
+    color: rgb(20, 140, 151);
+    text-decoration: none;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.forgot-password:hover {
+    color: rgb(203, 149, 25);
+    text-decoration: underline;
+}

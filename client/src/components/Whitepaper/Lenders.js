@@ -5,9 +5,9 @@ import './Lenders.css';
 const Lenders = () => {
   return (
     <div>
-      <h3>How it works for lenders</h3>
+      <h3>🚀 How it works for lenders</h3>
       <p>
-        The P2P lending platform makes it easy for lenders to earn higher returns on their investments. Here's how it works:
+        Lendify makes it easy for lenders to earn higher returns on their investments. Here's how it works:
       </p>
       <ol>
         <li>

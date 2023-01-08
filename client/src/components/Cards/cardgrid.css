@@ -27,9 +27,12 @@
     transition: transform 0.3s ease;
     /* Add a transition for the hover effect */
     color: var(--text-color);
-    padding: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 0;
+    padding-right: 0;
     margin: 20px;
-    height: 300px;
+    height: 60%;
     /* Set the height of the cards */
     border-radius: 5px;
     display: flex;
@@ -38,7 +41,7 @@
     justify-content: center;
     flex: 0 0 30%;
     /* Set the flex-basis of the cards to 30% */
-    min-width: 300px;
+    min-width: 75%;
     /* Set a minimum width of 300px */
 }
 
@@ -65,19 +68,20 @@
 }
 
 /* Style the paragraphs inside the cards */
-.card p {
-    font-size: 17px;
+.card p.caraousel-content {
+    font-size: 20px;
     /* Increase the font size of the paragraphs */
-    text-align: center;
+    text-align: justify;
     /* Justify align the paragraphs */
     width: 100%;
     margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
+    margin-left: 0;
     line-height: 1.5;
     color: #c6bbe8;
     font-family: 'DM Sans', sans-serif;
     padding: 0;
+    max-width: 85%;
 }
 
 /* Style the "Learn More" button */
@@ -100,9 +104,9 @@ button.learn-more:hover {
 }
 
 /*images in card*/
-img {
-    width: 60px;
-    height: 60px;
+.card img {
+    width: 30%;
+    height: 35%;
     align-items: center;
-    padding-bottom: 10px;
+    padding: 10px;
 }

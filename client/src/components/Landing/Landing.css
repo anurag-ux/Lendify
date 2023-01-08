@@ -57,7 +57,7 @@ span {
     transition: opacity 1s;
 }
 
-button {
+.learn-more {
     /* Change the text color */
     border: none;
     border-radius: 8px;
@@ -69,35 +69,43 @@ button {
     z-index: 2;
 }
 
-button:hover {
+button.learn-more:hover {
     background-color: var(--secondary-color);
     transform: scale(1.1);
 }
-.non-selectable {
-    -webkit-user-select: none;  /* Chrome, Safari, and Opera */
-    -moz-user-select: none;     /* Firefox */
-    -ms-user-select: none;      /* Internet Explorer */
-    user-select: none;          /* Standard syntax */
-  }
 
-  #lender{
+.non-selectable {
+    -webkit-user-select: none;
+    /* Chrome, Safari, and Opera */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer */
+    user-select: none;
+    /* Standard syntax */
+}
+
+#lender {
     display: inline-block;
     max-width: 45%;
     padding-right: 5%;
     padding-bottom: 20px;
-  }
-  #borrow{
+}
+
+#borrow {
     display: inline-block;
     max-width: 45%;
-    
-  }
 
-  .marketing {
-    display: inline-block; /* Make the div elements inline-block elements */
-    margin: 0 10px; /* Add a margin between the div elements */
-  }
+}
 
-  button a {
+.marketing {
+    display: inline-block;
+    /* Make the div elements inline-block elements */
+    margin: 0 0.5%;
+    /* Add a margin between the div elements */
+}
+
+button a {
     padding: 16px 15px;
     align-items: center;
     border-radius: 0px;
@@ -109,5 +117,4 @@ button:hover {
     text-decoration: none;
     max-width: 100%;
     font-weight: 400;
-  }
-  
+}

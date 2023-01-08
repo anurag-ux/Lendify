@@ -5,9 +5,9 @@ import './Borrowers.css'
 const Borrowers = () => {
   return (
     <>
-      <h3>How it works for borrowers</h3>
+      <h3>🥷 How it works for borrowers</h3>
       <p>
-        The P2P lending platform makes it easy for borrowers to access affordable financing options. Here's how it works:
+      Lendify makes it easy for borrowers to access affordable financing options. Here's how it works:
       </p>
       <ol>
         <li>
