@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
-import './Login.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faLock } from '@fortawesome/free-solid-svg-icons';
-import Slideshow from '../Carousel/Carousel';
 import GoogleButton from '../GoogleButton/GoogleButton';
+import Slideshow from '../Carousel/Carousel';
 
-function Login() {
+import './Login.css';
+
+function LoginComponent() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const [remember, setRemember] = useState(false);
 
     function handleSubmit(event) {
         event.preventDefault();
@@ -18,7 +19,7 @@ function Login() {
     return (
         <div>
             <Slideshow />
-            <h4>Hello Again!</h4>
+            <h4>hello again!</h4>
             <form>
                 <label className="input-group">
                     <input placeholder='username' type='text' value={username}
@@ -33,15 +34,21 @@ function Login() {
                     <FontAwesomeIcon icon={faLock} className="input-icon" />
                 </label>
                 <a href="#" className="forgot-password">
-                    Forgot password
+                    forgot password?
                 </a>
                 <button className='submit-button' type="submit" onSubmit={handleSubmit}>
-                    Log In
+                    log In
                 </button>
-                <GoogleButton/>
+                <GoogleButton />
             </form>
+            <span className='no-account'>
+                <p className='text-content'>don't have an account?</p>
+                <a href="/signup" className="create-account">
+                    signup
+                </a>
+            </span>
         </div>
-    )
+    );
 }
 
-export default Login;
+export default LoginComponent;

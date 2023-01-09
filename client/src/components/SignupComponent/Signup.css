@@ -1,0 +1,28 @@
+.already-account,
+.login-link {
+    display: inline-block;
+    color: rgb(20, 140, 151);
+    text-decoration: none;
+    margin-top: 2%;
+    width: 25%;
+}
+
+.already-account {
+    margin-top: 1em;
+  }
+
+p.text-content {
+    color: wheat;
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+a.login-link {
+    font-size: 20px;
+}
+
+a.login-link:hover{
+    color: #d18b2e;
+    text-decoration: underline;
+}

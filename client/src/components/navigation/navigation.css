@@ -81,8 +81,6 @@ nav a img {
 
 nav a:hover {
     color: #d18b2e;
-    /* Change the text color on hover */
-    text-decoration: none;
     /* Add an underline on hover */
     text-decoration: underline;
 }
@@ -119,7 +117,7 @@ nav a.brand {
 }
 
 nav a.brand:hover {
-    color: #d18b2e;
+    
     font-family: 'DM Sans', sans-serif;
     font-weight: 600;
     padding: 0;
@@ -153,7 +151,7 @@ nav a.download {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    border-radius: 0px;
+    border-radius: 15px;
     background-image: linear-gradient(150deg, #a841ff, #36a2ff);
     -webkit-transition: .2s;
     transition: .2s;

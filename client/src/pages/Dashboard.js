@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LoanViews from "../components/LoanViews/LoanViews"
 
-import Login from '../components/Login/Login'
+import './stylesheets/Dashboard.css'
+import LoginComponent from "../components/LoginComponent/LoginComponent";
 
-function Dashboard(){
-    return(
+function Dashboard() {
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+    let component;
+    if (isLoggedIn) {
+        component = <LoanViews/>
+    } else {
+        component = <LoginComponent />
+    }
+    return (
         <div>
-            <Login/>
+            {component}
         </div>
     );
 }
