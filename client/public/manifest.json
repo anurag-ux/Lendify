@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Lendify",
+  "name": "Lendify : your personal p2p lending partner",
   "icons": [
     {
       "src": "favicon.ico",
