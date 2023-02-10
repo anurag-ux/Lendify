@@ -42,7 +42,7 @@ function LoginComponent() {
                 <GoogleButton />
             </form>
             <span className='no-account'>
-                <p className='text-content'>don't have an account?</p>
+                <p className='text-content'>dont have an account?</p>
                 <a href="/signup" className="create-account">
                     signup
                 </a>

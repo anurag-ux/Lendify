@@ -7,7 +7,7 @@ const Borrowers = () => {
     <>
       <h3>🥷 How it works for borrowers</h3>
       <p>
-      Lendify makes it easy for borrowers to access affordable financing options. Here's how it works:
+      Lendify makes it easy for borrowers to access affordable financing options. Heres how it works:
       </p>
       <ol>
         <li>
