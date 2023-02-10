@@ -9,7 +9,6 @@ import Contact from './pages/Contact';
 import HowItWorks from './pages/HowItWorks'
 import Dashboard from './pages/Dashboard';
 import Signup from './components/SignupComponent/Singup';
-import LoginComponent from './components/LoginComponent/LoginComponent';
 
 
 function App() {
