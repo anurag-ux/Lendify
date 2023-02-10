@@ -12,7 +12,7 @@ const Conclusion = () => (
       options, and participate in transparent and secure transactions.
     </p>
     <p>
-      Don't miss out on these opportunities - sign up now and start using our platform to achieve your
+      Dont miss out on these opportunities - sign up now and start using our platform to achieve your
       financial goals.
     </p>
   </div>
