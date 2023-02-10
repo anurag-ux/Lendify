@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoanViews from "../components/LoanViews/LoanViews";
 
 import './stylesheets/Dashboard.css'

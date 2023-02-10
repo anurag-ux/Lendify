@@ -53,7 +53,7 @@ function Signup() {
             </form>
             <span className='already-account'>
                 <p className='text-content'>already have an account?</p>
-                <a href="/dashboard" className="login-link">
+                <a href="/login" className="login-link">
                     login
                 </a>
             </span>
